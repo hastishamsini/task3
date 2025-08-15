@@ -173,7 +173,7 @@ body {
     object-fit: contain;
 }
 
-.container3{
+.container3 {
     display: flex;
     position: relative;
     justify-content: center;
@@ -181,83 +181,246 @@ body {
     margin: 0px 10%;
     gap: 20px;
     margin-top: -10%;
-  
+
 }
 
 .container3-img {
-  display: flex;
-  width: 90%;
-  margin-top: 20%;
+    display: flex;
+    width: 90%;
+    margin-top: 20%;
 }
 
-.text{
-  display: flex;
-  flex-direction: column;
-  width: 65%;
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
 }
 
-.text-1{
+.text-1 {
     color: rgba(51, 6, 86, 1);
     font-weight: bold;
     font-size: 50px;
 }
-.text-2{
+
+.text-2 {
     color: rgba(255, 138, 0, 1);
 }
-.text-3{
+
+.text-3 {
     color: rgba(51, 6, 86, 1);
     font-size: 15px;
     top: 40px;
     position: relative;
 }
-.container4{
+
+.container4 {
     margin-top: 8%;
     text-align: center;
-  }
-  
-  .container4-text{
+}
+
+.container4-text {
     display: flex;
     flex-direction: column;
-    
-  }
-  
-  .container4-text > :nth-child(1){
+
+}
+
+.container4-text> :nth-child(1) {
     color: rgba(51, 6, 86, 1);
     font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .container4-text > :nth-child(2){
+}
+
+.container4-text> :nth-child(2) {
     color: rgba(51, 6, 86, 1);
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .container4-img{
+}
+
+.container4-img {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-  }
-  .container4-photo{
+}
+
+.container4-photo {
     width: 55%;
     top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-  }
-  .container4-icon{
+}
+
+.container4-icon {
     position: absolute;
-   margin: 50px 800px 400px 80px;
+    margin: 50px 800px 400px 80px;
     width: 100%;
     height: 150px;
     object-fit: contain;
-   
+
+}
+
+.container5 {
+    height: 500px;
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.container5-text {
+    color: rgba(51, 6, 86, 1);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    top: 320px;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    width: 330px;
+    height: 430px;
+    background-color: #F6EBFF;
+    border: 5px solid rgba(118, 85, 143, 1);
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 5%;
+}
+
+.text-4 {
+
+    color: rgba(75, 45, 98, 1);
+    font-size: 50px;
+}
+
+.text-5 {
+    margin-top: -10px;
+    color: rgba(95, 92, 98, 1);
+    font-size: 20px;
+}
+
+.text-6 {
+
+    color: rgba(255, 138, 0, 1);
+    font-size: 50px;
+}
+
+.text-7 {
+
+    color: rgba(75, 45, 98, 1);
+    font-size: 20px;
+}
+
+.text-8 {
+
+    color: rgba(75, 45, 98, 1);
+    font-size: 20px;
+}
+
+.text-9 {
+
+    color: rgba(75, 45, 98, 1);
+    font-size: 20px;
+}
+
+.text-10 {
+
+    color: rgba(75, 45, 98, 1);
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 400px;
+    margin-top: 20%;
+    background-image: url(img/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+  
+  }
+  .footer-tex{
+    color: rgba(51, 6, 86, 1);
+    height: 200px;
+    /* width: 1500px; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+  
+  }
+ 
+  
+  .textf{
+    font-size: 50px;
+  
+  
+  }
+  .textf2{
+    font-size: 20px;
+  }
+  
+  .fbtn{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 150px 250px 20px 40px;
+  
+  
+  }
+  .fbtn1{
+    background-color: rgba(255, 138, 0, 1);
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 1px 8px 10px #bf88e9;
+  }
+  .fbtn2{
+    color: rgba(255, 138, 0, 1);
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    align-items: center;
+    width: 200px;
+    box-shadow: 1px 8px 10px #bf88e9;
+    justify-content: center;
+  }
+  .ficon{
+    height: 200px;
   }
 
 @media screen and (max-width: 992px) {
@@ -306,19 +469,80 @@ body {
     .h1 {
         font-size: 30px;
     }
-    .container3{
-       flex-direction: column;
-       margin: 50% 0%;
+
+    .container3 {
+        flex-direction: column;
+        margin: 50% 0%;
     }
-    .text{
-       width: 90%;
-       text-align: center;
+
+    .text {
+        width: 90%;
+        text-align: center;
     }
-    .text span{
+
+    .text span {
         font-size: 30px;
     }
-    .container4-photo{
+
+    .container4-photo {
         width: 90%;
     }
 
+    .cards {
+        flex-direction: column;
+    }
+    .container5{
+        padding-bottom: 500px;
+    }
+    .container5-text {
+        font-size: 40px;
+        margin-top: 20%;
+    }
+    .card{
+        width: 360px;
+        height: 380px;
+    }
+    .textf{
+        font-size: 30px;
+      }
+      .textf2{
+        font-size: 10px;
+      }
+      .textf3{
+        font-size: 10px;
+      
+      }
+      .textf3.span2{
+        font-size: 10px;
+      
+      }
+      .ficon{
+        display: none;
+      }
+      .fbtn{
+          height: auto;
+          align-items: center;
+      }
+      .fbtn1{
+        width: 90%;
+      
+      }
+      .fbtn2{
+        width: 90%;
+        
+      }
+      footer{
+       top: 60rem;
+      }
+      .fbtn{
+
+        align-items: center;
+        margin: 0px;
+        top: 100px;
+        height: 200px;
+        width: 350px;
+        flex-direction: column;
+      
+      
+      }
 }
